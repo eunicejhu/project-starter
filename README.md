@@ -1,4 +1,4 @@
-## How to setup a cli project?
+## How to setup project-starter?
 
 ```sh
 npm init

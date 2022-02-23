@@ -1,0 +1,29 @@
+{
+  "name": "isa-cli",
+  "version": "1.0.0",
+  "description": "This a command line interface for personnal use",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js --hot",
+    "build": "webpack --config webpack.prod.js --color",
+    "base": "webpack --config webpack.base.js --color ",
+    "config": "webpack --config config/webpack.base.js --color --progress"
+  },
+  "keywords": "webpack",
+  "author": "HU ZUOQIN",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1"
+  }
+}

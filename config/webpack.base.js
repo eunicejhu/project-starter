@@ -7,6 +7,7 @@ const rootDir = process.cwd();
 module.exports = {
   entry: {
     index: path.resolve(rootDir, "src/index.js"),
+    indexB: "./src/indexB.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -18,7 +19,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(rootDir, "public/index.html"),
       filename: "index.html",
-      chunks: ["index"],
+      chunks: ["index", "indexB"],
     }),
   ],
 };

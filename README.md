@@ -1,5 +1,13 @@
 ## How to setup project-starter?
 
+- init project
+- install webpack
+- create webapack config files
+- setup file structure
+- setup babel, browserslist
+- setup style loaders
+- setup file-loader
+
 ```sh
 npm init
 npm i -D webpack webpack-cli
@@ -12,7 +20,3 @@ touch webpack.base.js webpack.dev.js webpack.prod.js
 ```
 npx brwoserslist
 ```
-
-## Notes
-
-webpack hot reloader does not work with browserslist before v5

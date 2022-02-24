@@ -1,5 +1,5 @@
-// import "./index.css";
-console.log("hello,");
+import "./index.css";
+console.log("hello,dddd");
 
 class Config {
   webpackConfig = "djf";
@@ -9,3 +9,9 @@ class Config {
 }
 
 new Config();
+
+new Promise((resolve, reject) => {
+  return resolve(2);
+});
+
+[1, 2, 3].includes(2);

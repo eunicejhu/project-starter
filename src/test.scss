@@ -1,0 +1,16 @@
+// index.css
+ul {
+  border: 2px solid red;
+  li {
+    color: yellow;
+  }
+}
+
+.indexB {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-grow: 1;
+  color: blue;
+  transition: width 2s;
+}

@@ -11,6 +11,6 @@ module.exports = merge(base, {
     ],
     host: "localhost",
     port: "3000",
-    open: true,
+    open: true, // open browser by default
   },
 });
